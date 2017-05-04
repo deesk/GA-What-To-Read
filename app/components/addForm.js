@@ -4,7 +4,6 @@ import React from 'react'
 class AddForm extends React.Component {
 
   handleAdd(e) {
-    console.log(this)
     var tempReading = {
       Title: this.refs.inputTitle.value,
       Author: this.refs.inputAuthor.value,

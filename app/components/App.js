@@ -43,13 +43,14 @@ class AppInterface extends React.Component {
     console.log(this)
     var tempList = this.state.readingList;
     tempList.push(tempReading);
+  
     this.setState({
-      readinList: tempList
+      readingList: tempList,
+      formBodyVisible: false
     })
   }
 
   toggleAddDisplay() {
-console.log(tempVisibility)
     var tempVisibility = !this.state.formBodyVisible;
     this.setState({
       formBodyVisible: tempVisibility
@@ -58,7 +59,6 @@ console.log(tempVisibility)
 
   render() {
     var filteredLists = this.state.readingList;
-console.log(filteredLists)
     filteredLists = filteredLists.map(function(list, index){
       return (
         <MyReadingList
