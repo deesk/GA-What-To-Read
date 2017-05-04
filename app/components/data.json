@@ -1,0 +1,26 @@
+[
+  {
+    "Title":"eloquentjavascript",
+    "Author": "Marijn Haverbeke",
+    "Type": "eBook",
+    "Info": "http://eloquentjavascript.net/"
+  },
+  {
+    "Title": "The Pragmatic Programmer: From Journeyman to Master",
+    "Author": " Andrew Hunt, David Thomas",
+    "Type": "Book",
+    "Info": "https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X"
+  },
+  {
+    "Title": "Sth about java",
+    "Author": "no idea",
+    "Type": "Article",
+    "Info": "https://www.theregister.co.uk/2017/04/24/stanford_tests_javascript_in_place_of_java/"
+  },
+  {
+    "Title": "Do you Quantum Think",
+    "Author": "Dianne Collins",
+    "Type": "Book",
+    "Info": "http://diannecollins.com/"
+  }
+]
