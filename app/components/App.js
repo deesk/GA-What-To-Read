@@ -19,7 +19,7 @@ class AppInterface extends React.Component {
   }
 
   componentDidMount() {
-    this.serverRequest = $.get('./app/components/data.json', function(result){
+    this.serverRequest = $.get('./data.json', function(result){
       var tempReadingList = result;
       this.setState({
         readingList: tempReadingList
@@ -43,7 +43,7 @@ class AppInterface extends React.Component {
     console.log(this)
     var tempList = this.state.readingList;
     tempList.push(tempReading);
-  
+
     this.setState({
       readingList: tempList,
       formBodyVisible: false

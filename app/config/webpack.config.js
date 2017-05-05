@@ -6,13 +6,13 @@ const ROOT = path.join(__dirname, '../../')
 
 const PATHS = {
   app: path.join(ROOT, 'app'),
-  build: path.join(ROOT, 'build')
+  build: path.join(ROOT, 'docs')
 }
 
 module.exports = (env = {}) => {
 
   console.log('ENV:', env);
-  
+
   const common =  {
     entry: { // looks for entry filenames
       app: PATHS.app, // scan the content for import and require
@@ -57,7 +57,7 @@ module.exports = (env = {}) => {
       ]
     }
   }
-    
+
   const dev = {
     devtool: 'cheap-module-source-map',
     devServer: {
