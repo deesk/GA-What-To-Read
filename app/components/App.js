@@ -19,7 +19,7 @@ class AppInterface extends React.Component {
   }
 
   componentDidMount() {
-    this.serverRequest = $.get('./data.json', function(result){
+    this.serverRequest = $.get('./docs/data.json', function(result){
       var tempReadingList = result;
       this.setState({
         readingList: tempReadingList
