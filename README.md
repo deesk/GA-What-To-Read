@@ -1,6 +1,9 @@
 
-## What To Read
+## About: [What To Read](https://deesk.github.io/GA-What-To-Read/)
 A web based application, to create a list of content to read later.
+
+## Background
+
 
 ## Features
   * Adding new reading list

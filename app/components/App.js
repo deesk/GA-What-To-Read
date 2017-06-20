@@ -73,7 +73,7 @@ class AppInterface extends React.Component {
       <div>
         <nav className="navbar navbar-light bg-faded">
           <a className="navbar-brand" href="#">
-            <img src="http://icon-icons.com/icons2/505/PNG/512/child-reading-book_icon-icons.com_49293.png" width="100" height="100" className="d-inline-block align-top" alt="" />
+            <img src="http://www.iconsfind.com/wp-content/uploads/2015/10/20151012_561bae455a4b6.png" width="100" height="100" className="d-inline-block align-top" alt="" />
             <span className="name"> What To Read </span>
           </a>
         </nav>
