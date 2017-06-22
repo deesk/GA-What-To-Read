@@ -3,22 +3,26 @@
 body {
 }
 .app-interface {
-  margin: 40px auto 0 auto;
+  margin: 24px auto 0 auto;
   width: 60%;
 }
 
 .navbar {
   padding-left: 20%;
 }
+.item {
+  font-size: .8em;
+}
 
 .name {
   line-height: 108px;
   font-family: 'Gravitas One', cursive;
   font-size: 2em;
+  color: #546e7a;
 }
 
 .item-list {
-  margin: 40px 0 0 0;
+  margin: 15px 0 0 0;
   list-style-type: none;
   padding: 0;
 }

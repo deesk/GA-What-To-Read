@@ -1,7 +1,7 @@
 
 `HTML` `CSS` `REACT` `lodash` `Boothstrap` `jQuery` `Babel-core` `Webpack`
-## About: [What To Read](https://deesk.github.io/GA-What-To-Read/)
-A web based application, to create a list of content to read.
+## [What To Read](https://deesk.github.io/GA-What-To-Read/)
+A web based application, to create list of url links to read.
 
 ## Features
   * Adding new reading list
